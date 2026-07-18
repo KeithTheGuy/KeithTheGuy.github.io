@@ -136,11 +136,8 @@
 <div class="wrap">
   <section class="hero">
     <div class="greet" id="greet">Good evening</div>
-    <h1>Hey — I'm <em>Keith</em>.<br>Welcome to my corner of&nbsp;the&nbsp;internet.</h1>
-    <p class="bio">I make <b>small things</b> and leave them running — live screens,
-    experiments, the occasional questionable idea. Everything here tends itself,
-    so stay as long as you like.</p>
-    <div class="hint">↓ currently on the workbench</div>
+    <h1>Hey — I'm <em>Keith</em>.</h1>
+    <div class="hint">↓ the workbench</div>
   </section>
 
   <section class="bench">
@@ -236,8 +233,9 @@ $("greet").textContent=(h<5?"You're up late":h<12?"Good morning":h<17?"Good afte
 
 /* ---------- workbench cards from sites.json ---------- */
 var BLURBS={
-  "spcx-tracker":"A live stock board for the newly public SpaceX, styled like launch telemetry. It updates itself every five minutes and has opinions about the trajectory.",
-  "ai-model-tracker":"A wire feed of the AI world — every model release, price cut, and context bump across the labs, recorded as it happens."
+  "spcx-tracker":"the SPCX ticker, watching itself.",
+  "ai-model-tracker":"the AI model wire. every release, every price cut.",
+  "typing-trainer":"KeyFlow. type faster, feel things."
 };
 var fmt=function(n){return n.toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2})};
 function probe(s){
@@ -272,7 +270,7 @@ fetch("sites.json?ts="+Date.now(),{cache:"no-store"})
         +'<span class="visit">wander in →</span>'
         +"</a>";
     }).join("")
-    +'<div class="card ghost" aria-hidden="true"><h3>something new</h3><p>is always cooking. check back.</p></div>';
+    +'<div class="card ghost" aria-hidden="true"><h3>something new</h3><p>soon.</p></div>';
     cfg.sites.forEach(probe);
   })
   .catch(function(){$("cards").innerHTML='<div class="card ghost"><h3>the workbench is dark</h3><p>couldn\'t load sites.json.</p></div>'});

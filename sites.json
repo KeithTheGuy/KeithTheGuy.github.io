@@ -13,6 +13,13 @@
       "href": "/ai-model-tracker/",
       "accent": "#52E09A",
       "probe": { "type": "models", "url": "/ai-model-tracker/data/models.json" }
+    },
+    {
+      "slug": "typing-trainer",
+      "title": "KeyFlow",
+      "href": "/typing-trainer/",
+      "accent": "#B48AE0",
+      "probe": { "type": "ping", "url": "/typing-trainer/" }
     }
   ]
 }
