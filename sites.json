@@ -3,29 +3,16 @@
     {
       "slug": "spcx-tracker",
       "title": "SPCX Telemetry",
-      "tagline": "Live stock board for Space Exploration Technologies. Updates every 5 minutes, forever.",
       "href": "/spcx-tracker/",
       "accent": "#FFB300",
-      "est": "2026",
       "probe": { "type": "spcx", "url": "/spcx-tracker/data/history.json" }
     },
     {
       "slug": "ai-model-tracker",
       "title": "Modelwatch",
-      "tagline": "The AI model wire — every release, price cut, and context bump across every lab.",
       "href": "/ai-model-tracker/",
       "accent": "#52E09A",
-      "est": "2026",
       "probe": { "type": "models", "url": "/ai-model-tracker/data/models.json" }
-    },
-    {
-      "slug": "capstone",
-      "title": "Crypto Capstone",
-      "tagline": "The 2018 relic, preserved exactly as abandoned. There are many different kinds of cryptocurrencies.",
-      "href": "/capstone/",
-      "accent": "#5E8FE0",
-      "est": "2018",
-      "probe": { "type": "ping", "url": "/capstone/" }
     }
   ]
 }
