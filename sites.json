@@ -20,6 +20,20 @@
       "href": "/typing-trainer/",
       "accent": "#B48AE0",
       "probe": { "type": "ping", "url": "/typing-trainer/" }
+    },
+    {
+      "slug": "solar-system",
+      "title": "Orrery",
+      "href": "/solar-system/",
+      "accent": "#7FB4FF",
+      "probe": { "type": "ping", "url": "/solar-system/" }
+    },
+    {
+      "slug": "solar-system-atlas",
+      "title": "Helios",
+      "href": "/solar-system-atlas/",
+      "accent": "#5EE0D8",
+      "probe": { "type": "ping", "url": "/solar-system-atlas/" }
     }
   ]
 }
