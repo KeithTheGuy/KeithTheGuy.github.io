@@ -34,6 +34,12 @@
       "href": "/solar-system-atlas/",
       "accent": "#5EE0D8",
       "probe": { "type": "ping", "url": "/solar-system-atlas/" }
+    },
+    {
+      "slug": "undertower",
+      "title": "Undertower",
+      "href": "https://undertower.jeffnugget.workers.dev/",
+      "accent": "#E8707B"
     }
   ]
 }
