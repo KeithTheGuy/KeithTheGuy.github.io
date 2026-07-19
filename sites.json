@@ -42,6 +42,13 @@
       "accent": "#E8707B"
     },
     {
+      "slug": "coverdeck",
+      "title": "Coverdeck",
+      "href": "/coverdeck/",
+      "accent": "#38E1FF",
+      "probe": { "type": "ping", "url": "/coverdeck/" }
+    },
+    {
       "slug": "torque-of-the-town",
       "title": "Torque of the Town",
       "href": "/torque-of-the-town/",
