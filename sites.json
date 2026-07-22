@@ -54,6 +54,13 @@
       "href": "/torque-of-the-town/",
       "accent": "#E8D75E",
       "probe": { "type": "ping", "url": "/torque-of-the-town/" }
+    },
+    {
+      "slug": "myomap",
+      "title": "MYOMAP",
+      "href": "/myomap/",
+      "accent": "#FF5C49",
+      "probe": { "type": "ping", "url": "/myomap/" }
     }
   ]
 }
